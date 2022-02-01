@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+h1 {
+  font-size: 10rem !important;
+}
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #000;
+  transition: background-color 1s ease-in-out;
+  color: #fff;
+  font-size: 4rem;
+}
+.startBgColor{
+  transition:  all 1s ease-in-out;
+  background-color: #E50914;;
+}
+#watch-container {
+  width: 100vw;
+  padding: 10rem;
+  display: flex;
+  justify-content: space-evenly;
+}
+.btn {
+  padding: 3rem;
+  border: 1px solid #fff;
+  display: inline-block;
+  background-color: transparent;
+  border-radius: 20%;
+  cursor: pointer;
+  transition: all 0.4s ease;
+  color: #fff;
+
+  &:hover {
+    background-color: #fff;
+    color: #000;
+  }
+}
