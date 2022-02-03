@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html {
+  font-size: 10px;
+}
+body {
+  height: 100vh;
+  background-color: #333333;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#container {
+  width: 60rem;
+  height: 60rem;
+  background-color: red;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+.box {
+  width: 4rem;
+  height: 4rem;
+  background-color: #000;
+  border: 1px solid #333333;
+  transition: all 1s ease;
+}
